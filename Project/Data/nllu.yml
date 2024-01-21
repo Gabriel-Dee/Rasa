@@ -1,0 +1,61 @@
+# (Intent Examples):
+nlu:
+  - intent: greet
+    examples: |
+      - Hello
+      - Hi there
+      - Hey
+      - Good morning
+  - intent: goodbye
+    examples: |
+      - Goodbye
+      - See you later
+      - Bye for now
+  - intent: thank_you
+    examples: |
+      - Thank you
+      - Thanks a lot
+      - Appreciate it
+  - intent: affirm
+    examples: |
+      - Yes
+      - Absolutely
+      - Sure
+  - intent: deny
+    examples: |
+      - No
+      - I don't think so
+      - Not really
+  - intent: bot_challenge
+    examples: |
+      - Are you a robot?
+      - Is this a machine talking?
+      - Tell me something only a human would say
+  - intent: query_nutrient_requirements
+    examples: |
+      - What nutrients do I need while breastfeeding?
+      - Tell me about the essential nutrients for lactating mothers.
+  - intent: query_best_foods
+    examples: |
+      - Which foods are best for lactating mothers?
+      - What should I include in my diet to support breastfeeding?
+  - intent: query_healthy_snacks
+    examples: |
+      - Can you suggest healthy snacks for breastfeeding moms?
+      - What are some quick and nutritious snacks for lactating mothers?
+  - intent: query_hydration
+    examples: |
+      - How much water should I drink while breastfeeding?
+      - Tell me about the importance of staying hydrated during lactation.
+  - intent: query_weight_loss
+    examples: |
+      - Is it safe to try to lose weight while breastfeeding?
+      - What are healthy ways to manage weight postpartum?
+  - intent: query_supplements
+    examples: |
+      - Do I need any supplements while breastfeeding?
+      - Tell me about recommended supplements for lactating mothers.
+  - intent: query_food_avoidance
+    examples: |
+      - Are there foods I should avoid while breastfeeding?
+      - Can certain foods affect my baby through breast milk?

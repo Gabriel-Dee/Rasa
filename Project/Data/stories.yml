@@ -1,0 +1,43 @@
+# (Dialogue Flows):
+stories:
+- story: greet and ask nutrient requirements
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_nutrient_requirements
+  - action: utter_nutrient_requirements
+- story: greet, ask nutrient requirements, and say goodbye
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_nutrient_requirements
+  - action: utter_nutrient_requirements
+  - intent: goodbye
+  - action: utter_goodbye
+- story: happy path for newsletter signup
+  steps:
+  - intent: signup_newsletter
+  - action: utter_ask_confirm_signup
+  - or:
+    - intent: affirm
+    - intent: thanks
+  - action: action_signup_newsletter
+- story: beginning of conversation with feedback
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - checkpoint: ask_feedback
+- story: provide feedback
+  steps:
+  - checkpoint: ask_feedback
+  - action: utter_ask_feedback
+  - intent: inform
+  - action: utter_thank_you
+  - action: utter_anything_else
+- story: no feedback
+  steps:
+  - checkpoint: ask_feedback
+  - action: utter_ask_feedback
+  - intent: deny
+  - action: utter_no_problem
+  - action: utter_anything_else

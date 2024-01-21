@@ -1,0 +1,26 @@
+#  (Dialogue Management Rules):
+rules:
+  - rule: Greeting Rule
+    steps:
+    - intent: greet
+    - action: utter_greet
+  - rule: Goodbye Rule
+    steps:
+    - intent: goodbye
+    - action: utter_goodbye
+  - rule: Thank You Rule
+    steps:
+    - intent: thank_you
+    - action: utter_thank_you
+  - rule: Affirmation Rule
+    steps:
+    - intent: affirm
+    - action: utter_affirm
+  - rule: Denial Rule
+    steps:
+    - intent: deny
+    - action: utter_deny
+  - rule: Bot Challenge Rule
+    steps:
+    - intent: bot_challenge
+    - action: utter_bot_challenge
