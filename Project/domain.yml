@@ -1,0 +1,56 @@
+version: "3.1"
+
+intents:
+  - query_nutrient_requirements
+  - query_best_foods
+  - query_healthy_snacks
+  - query_hydration
+  - query_weight_loss
+  - query_supplements
+  - query_food_avoidance
+  - greet
+  - goodbye
+  - thank_you
+  - affirm
+  - deny
+  - bot_challenge
+
+responses:
+  utter_nutrient_requirements:
+    - text: "Lactating mothers need a balanced diet rich in nutrients such as iron, calcium, and omega-3 fatty acids. It's crucial for both your health and your baby's development."
+
+  utter_best_foods:
+    - text: "Include a variety of foods like leafy greens, lean proteins, whole grains, and dairy in your diet. These provide essential nutrients for lactation."
+
+  utter_healthy_snacks:
+    - text: "Opt for healthy snacks like yogurt with fruits, nuts, or whole-grain crackers. These snacks provide energy and nutrients for breastfeeding moms."
+
+  utter_hydration:
+    - text: "Stay well-hydrated by drinking plenty of water throughout the day. Proper hydration supports milk production and helps maintain your overall health."
+
+  utter_weight_loss:
+    - text: "Focus on a healthy, balanced diet rather than actively trying to lose weight. Consult with a healthcare professional for personalized advice on postpartum weight management."
+
+  utter_supplements:
+    - text: "Some lactating mothers may benefit from supplements, especially vitamin D and omega-3 fatty acids. Consult with your healthcare provider to determine your specific needs."
+
+  utter_food_avoidance:
+    - text: "While breastfeeding, it's generally safe to eat a diverse range of foods. However, if you notice any adverse reactions in your baby, consider eliminating specific foods and consult with your doctor."
+
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+
+  utter_goodbye:
+    - text: "Goodbye! If you have more questions, feel free to ask."
+
+  utter_thank_you:
+    - text: "You're welcome! If you need any further assistance, don't hesitate to reach out."
+
+  utter_affirm:
+    - text: "Great! Let me know if there's anything specific you'd like to know."
+
+  utter_deny:
+    - text: "No problem. If you change your mind or have questions later, feel free to chat."
+
+  utter_bot_challenge:
+    - text: "I'm not a human, but I'm here to help you with any nutritional questions you have. Ask away!"
