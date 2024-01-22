@@ -15,6 +15,31 @@ intents:
   - deny
   - bot_challenge
 
+slots:
+  - nutrient_requirement:
+      type: text
+      influence_conversation: true
+  - food_category:
+      type: text
+      influence_conversation: true
+  - hydration:
+      type: text
+      influence_conversation: true
+  - weight_loss:
+      type: text
+      influence_conversation: true
+  - supplement:
+      type: text
+      influence_conversation: true
+  - food_avoidance:
+      type: text
+      influence_conversation: true
+  - shopping_items:
+      type: list
+  - current_account:
+      type: float
+      initial_value: 100
+
 responses:
   utter_nutrient_requirements:
     - text: "Lactating mothers need a balanced diet rich in nutrients such as iron, calcium, and omega-3 fatty acids. It's crucial for both your health and your baby's development."
