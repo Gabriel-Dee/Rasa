@@ -34,28 +34,122 @@ nlu:
   - intent: query_nutrient_requirements
     examples: |
       - What nutrients do I need while breastfeeding?
+        - entities:
+          - nutrient_requirement
       - Tell me about the essential nutrients for lactating mothers.
+        - entities:
+          - nutrient_requirement
+      - Nutritional requirements during breastfeeding
+        - entities:
+          - nutrient_requirement
   - intent: query_best_foods
     examples: |
       - Which foods are best for lactating mothers?
+        - entities:
+          - food_category
       - What should I include in my diet to support breastfeeding?
+        - entities:
+          - food_category
+      - Best foods for breastfeeding moms
+        - entities:
+          - food_category
+      - Top foods for lactation
+        - entities:
+          - food_category
   - intent: query_healthy_snacks
     examples: |
       - Can you suggest healthy snacks for breastfeeding moms?
+        - entities:
+          - food_category
       - What are some quick and nutritious snacks for lactating mothers?
+        - entities:
+          - food_category
+      - Healthy snacks during breastfeeding
+        - entities:
+          - food_category
   - intent: query_hydration
     examples: |
       - How much water should I drink while breastfeeding?
+        - entities:
+          - hydration
       - Tell me about the importance of staying hydrated during lactation.
+        - entities:
+          - hydration
+      - Hydration tips for breastfeeding moms
+        - entities:
+          - hydration
   - intent: query_weight_loss
     examples: |
       - Is it safe to try to lose weight while breastfeeding?
+        - entities:
+          - weight_loss
       - What are healthy ways to manage weight postpartum?
+        - entities:
+          - weight_loss
+      - Weight loss during lactation
+        - entities:
+          - weight_loss
   - intent: query_supplements
     examples: |
       - Do I need any supplements while breastfeeding?
+        - entities:
+          - supplement
       - Tell me about recommended supplements for lactating mothers.
+        - entities:
+          - supplement
+      - Supplements for breastfeeding moms
+        - entities:
+          - supplement
+      - Foods to avoid during breastfeeding
+        - entities:
+          - food_avoidance
   - intent: query_food_avoidance
     examples: |
       - Are there foods I should avoid while breastfeeding?
+        - entities:
+          - food_avoidance
       - Can certain foods affect my baby through breast milk?
+        - entities:
+          - food_avoidance
+      - Foods to avoid during breastfeeding
+        - entities:
+          - food_avoidance
+  - intent: inform_food_preference
+    examples: |
+      - I prefer vegetarian options
+        - entities:
+          - food_preference
+      - Can you recommend vegan sources of protein?
+        - entities:
+          - food_preference
+      - I'm allergic to nuts, suggest alternatives
+        - entities:
+          - food_preference_alternative
+  - intent: inform_medical_condition
+    examples: |
+      - I have diabetes, what should I include in my diet?
+        - entities:
+          - medical_condition
+      - Managing high blood pressure through diet
+        - entities:
+          - medical_condition
+      - Dietary recommendations for lactating mothers with allergies
+        - entities:
+          - medical_condition
+  - intent: inform_age
+    examples: |
+      - Dietary advice for older moms
+        - entities:
+          - age_group
+      - Nutrition tips for young mothers
+        - entities:
+          - age_group
+  - intent: inform_cuisine_preference
+    examples: |
+      - I enjoy Mediterranean cuisine, any specific recommendations?
+        - entities:
+          - cuisine_preference
+      - Traditional Indian foods for lactating moms
+        - entities:
+          - cuisine_preference
+
