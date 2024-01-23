@@ -68,16 +68,33 @@ responses:
     - text: "Hi {name}. How can I help you today?"
 
   utter_goodbye:
-    - text: "Goodbye {name}! If you have more questions, feel free to ask."
+    - text: "Goodbye :("
+    - text: "Farewell!"
+    - text: "See you later!"
 
   utter_thank_you:
-    - text: "You're welcome {name}! If you need any further assistance, don't hesitate to reach out."
+    - text: "You're very welcome!"
+    - text: "No problem, happy to help!"
+    - text: "Glad I could assist you!"
 
   utter_affirm:
-    - text: "Great {name}! Let me know if there's anything specific you'd like to know."
+    - text: "Great! Let me know if there's anything specific you'd like to know."
+    - text: "Fantastic! Is there anything else you'd like assistance with?"
+    - text: "Awesome! Feel free to ask any questions you have."
 
   utter_deny:
-    - text: "No problem {name}. If you change your mind or have questions later, feel free to chat."
+    - text: "No problem. If you change your mind or have questions later, feel free to chat."
+    - text: "Sure thing. If you ever need information, just reach out."
+    - text: "Alright. I'm here if you need assistance in the future."
 
   utter_bot_challenge:
-    - text: "I'm not a human, but I'm here to help you with any nutritional questions you have. Ask away!"
+    - text: "I'm not a human, but I'm here to help you with any questions you have. Ask away!"
+    - text: "Correct, I'm a bot! Ready to assist you with nutritional information."
+    - text: "You caught me! I'm a chatbot, but I'm knowledgeable about nutrition. How can I help you?"
+    - buttons:
+      - title: "Ask about nutrient requirements"
+        payload: "/query_nutrient_requirements"
+      - title: "Tell me about healthy snacks"
+        payload: "/query_healthy_snacks"
+      - title: "Goodbye"
+        payload: "/goodbye"
