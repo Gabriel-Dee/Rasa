@@ -63,19 +63,21 @@ responses:
     - text: "While breastfeeding, it's generally safe to eat a diverse range of foods. However, if you notice any adverse reactions in your baby, consider eliminating specific foods and consult with your doctor."
 
   utter_greet:
-    - text: "Hello! How can I assist you today?"
+    - text: "Hello {name}! How can I assist you today?"
+    - text: "Hello there {name} :)"
+    - text: "Hi {name}. How can I help you today?"
 
   utter_goodbye:
-    - text: "Goodbye! If you have more questions, feel free to ask."
+    - text: "Goodbye {name}! If you have more questions, feel free to ask."
 
   utter_thank_you:
-    - text: "You're welcome! If you need any further assistance, don't hesitate to reach out."
+    - text: "You're welcome {name}! If you need any further assistance, don't hesitate to reach out."
 
   utter_affirm:
-    - text: "Great! Let me know if there's anything specific you'd like to know."
+    - text: "Great {name}! Let me know if there's anything specific you'd like to know."
 
   utter_deny:
-    - text: "No problem. If you change your mind or have questions later, feel free to chat."
+    - text: "No problem {name}. If you change your mind or have questions later, feel free to chat."
 
   utter_bot_challenge:
     - text: "I'm not a human, but I'm here to help you with any nutritional questions you have. Ask away!"
